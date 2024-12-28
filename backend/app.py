@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 import pandas as pd
 from flask_cors import CORS
+import os
 
 # initializes a Flask application instance in a Python script
 # 1. Flask Class Initialization:
@@ -41,5 +42,8 @@ def get_aeroe_courses():
 # checks if the script is being run directly (as opposed to being imported as a module)
 # if TRUE, the script is executed as the main program
 if __name__ == '__main__':
-    app.run(debug=True)         # starts the Flask development server (listens to incoming requests and serves responses)
+    from waitress import serve
+    port = int(os.environ.get("PORT", 10000))
+    serve(app, host='0.0.0.0',port=port)
+    # app.run(debug=True)         # starts the Flask development server (listens to incoming requests and serves responses)
                                 # debug=True -> automatically restarts server on change to code and provides error messages
