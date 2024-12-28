@@ -17,8 +17,8 @@ app = Flask(__name__)
 CORS(app) # enable CORS for all routes
 
 # load flask file
-MechE_df = pd.read_csv('data\\MechE_Test.csv')
-AeroE_df = pd.read_csv('data\\AeroE_Test.csv')
+MechE_df = pd.read_csv('data/MechE_Test.csv')
+AeroE_df = pd.read_csv('data/AeroE_Test.csv')
 
 # "route decorator"
 # defines a URL endpoint for your Flask application
