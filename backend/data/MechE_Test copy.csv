@@ -1,0 +1,20 @@
+course,prerequisites,year
+MAT 021A - Calculus (4),Math Placement Exam,1
+MAT 021B - Calculus (4),MAT 021A,1
+MAT 021C - Calculus (4),MAT 021B,1
+MAT 021D - Vector Analysis (4),MAT 021C,1/2
+MAT 022A - Linear Algebra (3),"MAT 021C, ENG 006",1/2
+MAT 022B - Differential Equations (3),MAT 022A,2
+CHE 002A - General Chemistry (5),Chemistry Placement Exam,1
+CHE 002B - General Chemistry (5),CHE 002A,1
+PHY 009A - Classical Physics (5) (lab),MAT 021B,1
+PHY 009B - Classical Physics (5) (lab),"PHY 009A, MAT 021C, MAT 021D*",1/2
+PHY 009C - Classical Physics (5) (lab),"PHY 009B, MAT 021D, MAT 022A*",1/2
+ENG 004 - Engineering Graphics in Design (3) (lab),NONE,1
+ENG 006 - Engineering Problem Solving (4),"MAT 021A, MAT 021B",1
+ENG 017 - Circuits I (4),MAT 021C,2
+ENG 035 - Statics (4),"PHY 009A, MAT 021D*",2
+ENG 45 - Properties of Materials (4) ,"MAT 021C, CHE 002B, PHY 009A",2
+ENG 100 - Electronic Circuits & Systems (3),ENG 017,3
+ENG 102 - Dynamics (4),"ENG 035, MAT 022B",3
+ENG 103 - Fluid Mechanics (4),"ENG 035, MAT 022B, PHY 009B",3

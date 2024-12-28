@@ -1,0 +1,47 @@
+course,prerequisites,year,color,availability
+MAT 021A - Calculus (4),NONE,1,#ff0000,All
+MAT 021B - Calculus (4),MAT 021A,1,#ff0000,All
+MAT 021C - Calculus (4),MAT 021B,1,#ff0000,All
+MAT 021D - Vector Analysis (4),MAT 021C,1/2,#ff0000,All
+MAT 022A - Linear Algebra (3),"MAT 021C,ENG 006",1/2,#ff0000,All
+MAT 022B - Differential Equations (3),MAT 022A,2,#ff0000,All
+CHE 002A - General Chemistry (5),NONE,1,#592e9e,All
+CHE 002B - General Chemistry (5),CHE 002A,1,#592e9e,All
+PHY 009A - Classical Physics (5) (lab),MAT 021B,1,#0000ff,All
+PHY 009B - Classical Physics (5) (lab),"PHY 009A,MAT 021D",1/2,#0000ff,All
+PHY 009C - Classical Physics (5) (lab),"PHY 009B",1/2,#0000ff,All
+ENG 004 - Engineering Graphics in Design (3) (lab),NONE,1,#2e7c9e,FQ or WQ
+ENG 006 - Engineering Problem Solving (4),"MAT 021B",1,#2e7c9e,All
+ENG 017 - Circuits I (4),MAT 021C,2,#2e7c9e,FQ or WQ
+ENG 035 - Statics (4),"PHY 009A,MAT 021D",2,#2e7c9e,All
+ENG 045 - Properties of Materials (4),"MAT 021C,CHE 002B,PHY 009A",2,#2e7c9e,All
+ENG 100 - Electronic Circuits and Systems (3),"ENG 017",3,#2e7c9e,All
+ENG 102 - Dynamics (4),"ENG 035,MAT 022B",3,#2e7c9e,All
+ENG 103 - Fluid Dynamics (4),"ENG 035,MAT 022B,PHY 009B",3,#2e7c9e,All
+ENG 104 - Mechanics of Materials (4),"ENG 035,MAT 022B,PHY 009B",3,#2e7c9e,All
+ENG 105 - Thermodynamics (4),"ENG 035,MAT 022B",3,#2e7c9e,All
+Upper Division Standing - (0),NONE,3,#d113ae,"-"
+ENG 190 - Professional Responsibilities (3),"Upper Division Standing",3,#2e7c9e,WQ or SQ
+EME 106 - Thermo-fluid Dynamics (4),"ENG 103,ENG 105",3,#d16813,All
+EME 108 - Measurement Systems (4),"ENG 100,ENG 102",3,#d16813,All
+EME 109 - Experimental Methods for Thermal Fluids (4),"EME 106",3,#d16813,All
+EME 165 - Fundamentals of Heat Transfer (4),"ENG 006,ENG 103,ENG 105",4,#d16813,FQ OR SQ
+EME 172 - Automatic Control of Engineering Systems (4),"ENG 100,ENG 102",4,#d16813,All
+EAE 129 - Stability & Control of Aerospace Vehicles (4),"ENG 102",2,#348c6c,WQ
+EAE 133 - Finite Element Methods in Structure (4),"ENG 104",3,#348c6c,FQ
+EAE 135 - Aerospace Structures (4),"ENG 104",4,#348c6c,WQ
+EAE 138 - Aircraft Propulsion (4),"EME 106",4,#348c6c,WQ
+ECS 130 - Scientific Computation (4),"MAT 022A,ENG 006",4,#8f8c8c,FQ
+EME 115 - Intro to Numerical Analysis (4),"ENG 006,MAT 021D,MAT 022B,PHY 009C",4,#8f8c8c,FQ OR WQ
+ENG 180 - Engineering Analysis (4),"ENG 006,MAT 021D,MAT 022B",4,#8f8c8c,FQ
+MAT 128A - Numerical Analysis (4),"MAT 021C,ENG 006",4,#8f8c8c,FQ OR WQ
+MAT 128C - Numerical Analysis in Differential Equat (4),"MAT 022B,ENG 006",4,#8f8c8c,FQ OR SQ
+EAE 126 - Theoretical OR Computational Aerodynamics (4),"ENG 103,ENG 105,ENG 180",4,#00fcec,SQ
+EAE 127 - Applied Aircraft Aerodynamics (4),"EME 106",4,#8f8c8c,FQ
+EAE 140 - Rocket Propulsion (4),"EME 106",4,#8f8c8c,FQ
+EAE 142 - Orbital Mechanics (4),"ENG 102",3,#8f8c8c,WQ
+EAE 143A - Space Vehicle Design (4),"EAE 140,EAE 142",4,#8f8c8c,WQ
+EME 139* - Stability of Flexible Dynamic Systems (4) (lab),"ENG 102,ENG 103",4,#8f8c8c,SQ
+EAE 130A OR B - Aircraft Performance and Design,"EAE 127,EAE 129",4,#00fcec,WQ AND SQ
+EAE 143A OR B - Space Vehicle and Mission Design,"EAE 140,EAE 142",4,#8f8c8c,WQ AND SQ
+
